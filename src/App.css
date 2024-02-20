@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+#counter {
+  font-size: 10rem;
+}
+
+#add {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border: 1px solid #333;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 150ms ease-in-out;
+}
+
+#add:hover {
+  background-color: #fff;
+  color: #333;
+}
